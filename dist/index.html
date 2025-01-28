@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="0; url=/My-Portofolio/" />
     <title>Vite + React</title>
     <script>
-      // Redirect all routes to index.html for React Router to handle
-      window.location.replace("/My-Portofolio/");
+      // Redirect any 404 error back to the root of your app
+      if (window.location.pathname !== '/My-Portofolio/') {
+        window.location.replace('/My-Portofolio/');
+      }
     </script>
     <script type="module" crossorigin src="/My-Portofolio/assets/index-HaAQ8Lck.js"></script>
     <link rel="stylesheet" crossorigin href="/My-Portofolio/assets/index-8K8Up7oE.css">
