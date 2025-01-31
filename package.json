@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://eyad853.github.io/My-Portofolio",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --base=/My-Portofolio/",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
