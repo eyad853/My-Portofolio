@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from './pages/Home/Home'
-import {HashRouter  as Router , Routes  , Route} from 'react-router-dom'
+import {BrowserRouter as Router , Routes  , Route} from 'react-router-dom'
 import About from './pages/About/About'
 import Skills from './pages/Skills/Skills'
 import Contact from './pages/Contact/Contact'
@@ -29,7 +29,7 @@ Modal.setAppElement('#root');
 
 const App = () => {
   return (
-    <Router >
+    <Router basename="/My-Portofolio">
       <Routes >
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
