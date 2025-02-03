@@ -55,10 +55,10 @@ const App = () => {
         <Route path='/skills/Typescript' element={<TypeScriptPage   />} />
         <Route path='/skills/HTML' element={<HtmlPage   />} />
         <Route path='/projects/firstProject' element={<ProjectPage   
-        firstImage="./notessignup.png"
-        secondImage="./noteslogin.png"
-        thirdImage="./emptynotes.png"
-        fourthImage="./notes.png"
+        firstImage="/notessignup.png"
+        secondImage="/noteslogin.png"
+        thirdImage="/emptynotes.png"
+        fourthImage="/notes.png"
         firstVideo="/signupnotes.mp4"
         secondVideo="/loginnotes.mp4"
         thirdVideo="/notes.mp4"
