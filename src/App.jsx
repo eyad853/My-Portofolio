@@ -55,7 +55,7 @@ const App = () => {
         <Route path='/skills/Typescript' element={<TypeScriptPage   />} />
         <Route path='/skills/HTML' element={<HtmlPage   />} />
         <Route path='/projects/firstProject' element={<ProjectPage   
-        firstImage="/notessignup.png"
+        firstImage={`${process.env.PUBLIC_URL}/images/notessignup.png`}
         secondImage="/noteslogin.png"
         thirdImage="/emptynotes.png"
         fourthImage="/notes.png"
