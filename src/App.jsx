@@ -58,7 +58,7 @@ const App = () => {
         firstImage="/notessignup.png"
         secondImage="/noteslogin.png"
         thirdImage="/emptynotes.png"
-        fourthImage="https://yourusername.github.io/My-Portofolio/notes.png"
+        fourthImage="https://eyad853.github.io/My-Portofolio/notes.png"
         firstVideo="/signupnotes.mp4"
         secondVideo="/loginnotes.mp4"
         thirdVideo="/notes.mp4"
