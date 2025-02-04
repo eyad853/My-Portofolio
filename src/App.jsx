@@ -59,9 +59,9 @@ const App = () => {
         secondImage="/noteslogin.png"
         thirdImage="/emptynotes.png"
         fourthImage="/notes.png"
-        firstVideo="signupnotes.mp4"
-        secondVideo="/loginnotes.mp4"
-        thirdVideo="notes.mp4"
+        firstVideo="/notesSignUp.mp4"
+        secondVideo="/notesLogin.mp4"
+        thirdVideo="/notes.mp4"
         note={true}
         noteText="This project is based entirely on a YouTube tutorial, where I followed along to create a fully functional notes app. Through this tutorial, I learned and practiced:
         Password Encryption: Using bcrypt to hash and verify passwords for secure user authentication.
@@ -84,9 +84,9 @@ const App = () => {
         secondImage="/todoimportant.png"
         thirdImage="/todoplanned.png"
         fourthImage="/todotasks.png"
-        firstVideo="/todomyimportantv.mp4"
-        secondVideo="/todoplannedv.mp4"
-        thirdVideo="/todotasksv.mp4"
+        firstVideo="/todoImportant.mp4"
+        secondVideo="/todoPlanned.mp4"
+        thirdVideo="/todoTasks.mp4"
         firstImageText="The My Day page is designed to help users focus on tasks that matter today. It displays tasks that are scheduled for the current day or those manually added by the user for immediate attention. With an intuitive layout, users can easily plan and prioritize their daily responsibilities."
         secondImageText="The Important page keeps track of tasks marked as high-priority. By flagging tasks, users can quickly filter and view items that need their immediate focus. This page ensures that no critical tasks are overlooked."
         thirdImageText="The Planned page organizes tasks based on scheduled dates. It provides a clear overview of tasks planned for the upcoming days, weeks, or months. This page is perfect for long-term planning and staying ahead of deadlines."
