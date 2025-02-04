@@ -55,10 +55,10 @@ const App = () => {
         <Route path='/skills/Typescript' element={<TypeScriptPage   />} />
         <Route path='/skills/HTML' element={<HtmlPage   />} />
         <Route path='/projects/firstProject' element={<ProjectPage   
-        firstImage="/notessignup.png"
-        secondImage="/noteslogin.png"
-        thirdImage="/emptynotes.png"
-        fourthImage="/notes.png"
+        firstImage="./notessignup.png"
+        secondImage="./noteslogin.png"
+        thirdImage="./emptynotes.png"
+        fourthImage="./notes.png"
         firstVideo="/signupnotes.mp4"
         secondVideo="/loginnotes.mp4"
         thirdVideo="/notes.mp4"
@@ -80,10 +80,10 @@ const App = () => {
         Delete Notes: Finally, the video demonstrates the ability to delete notes seamlessly, with visual feedback like confirmation prompts or instant removal from the list."
         />} />
         <Route path='/projects/secondProject' element={<ProjectPage   
-        firstImage="/todomyday.png"
-        secondImage="/todoimportant.png"
-        thirdImage="/todoplanned.png"
-        fourthImage="/todotasks.png"
+        firstImage="./todomyday.png"
+        secondImage="./todoimportant.png"
+        thirdImage="./todoplanned.png"
+        fourthImage="./todotasks.png"
         firstVideo="/todomyimportantv.mp4"
         secondVideo="/todoplannedv.mp4"
         thirdVideo="/todotasksv.mp4"
