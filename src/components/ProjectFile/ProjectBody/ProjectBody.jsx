@@ -130,7 +130,7 @@ return (
                 {/* videos */}
                 <div className='relative bg-gradient-to-tl from-slate-600 to-slate-900 w-72 h-60 hover:w-80 hover:h-64 transition-all duration-200 rounded-2xl mt-20 '>
                     <video 
-                    src={firstVideo} 
+                    src={`${import.meta.env.BASE_URL}${firstVideo}`} 
                     controls 
                     autoPlay 
                     loop  
@@ -139,7 +139,7 @@ return (
 
                 <div className='relative bg-gradient-to-tl from-slate-600 to-slate-900 w-72 h-60 hover:w-80 hover:h-64 transition-all duration-200 rounded-2xl '>
                     <video 
-                    src={secondVideo} 
+                    src={`${import.meta.env.BASE_URL}${secondVideo}`} 
                     controls 
                     autoPlay 
                     loop 
@@ -148,7 +148,7 @@ return (
 
                 <div className='relative bg-gradient-to-tl from-slate-600 to-slate-900 w-72 h-60 hover:w-80 hover:h-64 transition-all duration-200 rounded-2xl '>
                     <video 
-                    src={thirdVideo} 
+                    src={`${import.meta.env.BASE_URL}${thirdVideo}`} 
                     controls 
                     autoPlay 
                     loop 
