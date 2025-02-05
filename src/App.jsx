@@ -59,7 +59,7 @@ const App = () => {
         secondImage="/noteslogin.png"
         thirdImage="/emptynotes.png"
         fourthImage="/notes.png"
-        firstVideo="/notesSignUp.mp4"
+        firstVideo="/notesSignUp_fixed.mp4"
         secondVideo="/notesLogin.mp4"
         thirdVideo="/notes.mp4"
         note={true}
