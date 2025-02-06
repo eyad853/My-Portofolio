@@ -86,51 +86,51 @@ return (
                 <div 
                 onClick={()=>{
                     setIsModalOpen(true)
-                    setImageSrc(firstImage)
+                    setImageSrc(`${import.meta.env.BASE_URL}${firstImage}`)
                 }}
                 className=' relative bg-gradient-to-tl from-slate-600 to-slate-900 w-60 h-60 hover:w-64 hover:h-64 transition-all duration-200 rounded-2xl overflow-hidden'>
                     <img 
-                    src={firstImage} 
+                    src={`${import.meta.env.BASE_URL}${firstImage}`} 
                     className='w-full h-full absolute inset-0 rounded-2xl  ' />
                 </div>
 
                 <div 
                 onClick={()=>{
                     setIsModalOpen(true)
-                    setImageSrc(secondImage)
+                    setImageSrc(`${import.meta.env.BASE_URL}${secondImage}`)
                 }}
                 className=' relative bg-gradient-to-tl from-slate-600 to-slate-900 w-60 h-60 hover:w-64 hover:h-64 transition-all duration-200 rounded-2xl '>
                     <img 
-                    src={secondImage} 
+                    src={`${import.meta.env.BASE_URL}${secondImage}`} 
                     className='w-full h-full absolute inset-0 rounded-2xl  ' />
                 </div>
 
                 <div 
                 onClick={()=>{
                     setIsModalOpen(true)
-                    setImageSrc(thirdImage)
+                    setImageSrc(`${import.meta.env.BASE_URL}${thirdImage}`)
                 }}
                 className=' relative bg-gradient-to-tl from-slate-600 to-slate-900 w-60 h-60 hover:w-64 hover:h-64 transition-all duration-200 rounded-2xl '>
                     <img 
-                    src={thirdImage} 
+                    src={`${import.meta.env.BASE_URL}${thirdImage}`} 
                     className='w-full h-full absolute inset-0 rounded-2xl  ' />
                 </div>
 
                 <div 
                 onClick={()=>{
                     setIsModalOpen(true)
-                    setImageSrc(fourthImage)
+                    setImageSrc(`${import.meta.env.BASE_URL}${fourthImage}`)
                 }}
                 className=' relative bg-gradient-to-tl from-slate-600 to-slate-900 w-60 h-60 hover:w-64 hover:h-64 transition-all duration-200 rounded-2xl '>
                     <img 
-                    src={fourthImage} 
+                    src={`${import.meta.env.BASE_URL}${fourthImage}`} 
                     className='w-full h-full absolute inset-0 rounded-2xl ' />
                 </div>
 
                 {/* videos */}
                 <div className='relative bg-gradient-to-tl from-slate-600 to-slate-900 w-72 h-60 hover:w-80 hover:h-64 transition-all duration-200 rounded-2xl mt-20 '>
                     <video 
-                    src={firstVideo} 
+                    src={`${import.meta.env.BASE_URL}${firstVideo}`} 
                     controls 
                     autoPlay 
                     loop  
@@ -139,7 +139,7 @@ return (
 
                 <div className='relative bg-gradient-to-tl from-slate-600 to-slate-900 w-72 h-60 hover:w-80 hover:h-64 transition-all duration-200 rounded-2xl '>
                     <video 
-                    src={secondVideo} 
+                    src={`${import.meta.env.BASE_URL}${secondVideo}`} 
                     controls 
                     autoPlay 
                     loop 
@@ -148,7 +148,7 @@ return (
 
                 <div className='relative bg-gradient-to-tl from-slate-600 to-slate-900 w-72 h-60 hover:w-80 hover:h-64 transition-all duration-200 rounded-2xl '>
                     <video 
-                    src={thirdVideo} 
+                    src={`${import.meta.env.BASE_URL}${thirdVideo}`} 
                     controls 
                     autoPlay 
                     loop 

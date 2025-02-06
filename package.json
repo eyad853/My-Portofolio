@@ -5,12 +5,10 @@
   "type": "module",
   "homepage": "https://eyad853.github.io/My-Portofolio",
   "scripts": {
-    "dev": "vite --base=/My-Portofolio/",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview"
   },
   "dependencies": {
     "framer-motion": "^11.18.0",
