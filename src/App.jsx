@@ -29,7 +29,7 @@ Modal.setAppElement('#root');
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/My-Portofolio">
       <Routes >
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
