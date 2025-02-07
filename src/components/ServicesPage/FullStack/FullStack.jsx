@@ -5,7 +5,7 @@ import FullstackBody from './FullstackBody'
 const FullStack = () => {
   return (
 <div className='text-white overflow-hidden'>
-    <div className='w-screen h-full bg-[url("/My-Portofolio/bg.jpeg")] bg-cover bg-bottom bg-no-repeat '>
+    <div className='w-screen h-full bg-[url("/bg.jpeg")] bg-cover bg-bottom bg-no-repeat '>
         <Nav />
         <FullstackBody />
     </div>

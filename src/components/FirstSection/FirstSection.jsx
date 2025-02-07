@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const FirstSection = () => {
-  return (
+return (
     <div>
         <div className='w-full h-56  flex'>
 
@@ -11,7 +11,7 @@ const FirstSection = () => {
             <div className=' flex justify-end items-center h-full w-1/3'>
                 <div className='w-48 h-48 rounded-full bg-black border-4 border-white'>
                     <img 
-                    src="myphoto.png" 
+                    src="/myphoto.png" 
                     className='w-full h-full object-cover rounded-full'
                     />
                 </div>

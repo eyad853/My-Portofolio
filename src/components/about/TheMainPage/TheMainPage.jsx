@@ -7,7 +7,7 @@ const TheMainPage = () => {
         {/* the photo */}
         <div className=' h-full w-1/3 flex justify-end'>
             <div className='w-80 h-80 bg-black rounded-full mt-10 border-4 border-white'>
-                <img src="myphoto.png" className='w-full h-full object-cover rounded-full' alt="" />
+                <img src="/myphoto.png" className='w-full h-full object-cover rounded-full' alt="" />
             </div>
         </div>
 
