@@ -138,7 +138,7 @@ return (
 
                 <div className='relative bg-gradient-to-tl from-slate-600 to-slate-900 w-72 h-60 hover:w-80 hover:h-64 transition-all duration-200 rounded-2xl '>
                     <video 
-                    src={`${import.meta.env.BASE_URL}${secondVideo}`} 
+                    src={`https://my-portofolio-nu-silk.vercel.app/My-Portofolio/projects/firstProject${secondVideo}`} 
                     controls 
                     autoPlay 
                     loop 
@@ -147,7 +147,7 @@ return (
 
                 <div className='relative bg-gradient-to-tl from-slate-600 to-slate-900 w-72 h-60 hover:w-80 hover:h-64 transition-all duration-200 rounded-2xl '>
                     <video 
-                    src={`${import.meta.env.BASE_URL}${thirdVideo}`} 
+                    src={`https://my-portofolio-nu-silk.vercel.app/My-Portofolio/projects/firstProject${thirdVideo}`} 
                     controls 
                     autoPlay 
                     loop 
