@@ -1,12 +1,8 @@
 {
     "rewrites": [
-      {
-        "source": "/videos/:path*",
-        "destination": "/videos/:path*"
-      },
-      {
-        "source": "/((?!videos/).*)",
+    {
+        "source": "/((?!.*\\..*$).*)",
         "destination": "/index.html"
-      }
+    }
     ]
-  }
+}
