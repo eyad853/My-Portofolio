@@ -23,7 +23,7 @@ const ProjectBody = ({
     const [isModalOpen , setIsModalOpen]=useState(false)
     const [imageSrc , setImageSrc]=useState("")
 
-    console.log("Video sources:", firstVideo, secondVideo, thirdVideo);
+    
 return (
     <div className='w-full h-full'>
         <div className='h-full flex'>
@@ -132,7 +132,8 @@ return (
                     <video 
                     src={firstVideo} 
                     controls 
-                    autoPlay 
+                    autoPlay
+                    muted 
                     loop  
                     className='w-full h-full absolute inset-0 rounded-2xl object-cover'></video>
                 </div>
@@ -141,7 +142,8 @@ return (
                     <video 
                     src={secondVideo} 
                     controls 
-                    autoPlay 
+                    autoPlay
+                    muted 
                     loop 
                     className='w-full h-full absolute inset-0 rounded-2xl object-cover'></video>
                 </div>
@@ -150,7 +152,8 @@ return (
                     <video 
                     src={thirdVideo} 
                     controls 
-                    
+                    autoPlay
+                    muted 
                     loop 
                     className='w-full h-full absolute inset-0 rounded-2xl object-cover'></video>
                 </div>
