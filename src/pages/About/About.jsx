@@ -5,7 +5,7 @@ import TheMainPage from '../../components/about/TheMainPage/TheMainPage'
 const About = () => {
   return (
     <div className='text-white overflow-hidden'>
-    <div className='w-screen h-full bg-[url("/bg.jpeg")] bg-cover bg-bottom bg-no-repeat pb-20'>
+    <div className='w-screen h-full bg-[url("/My-Portofolio/bg.jpeg")] bg-cover bg-bottom bg-no-repeat pb-20'>
         <Nav />
         <TheMainPage />
     </div>

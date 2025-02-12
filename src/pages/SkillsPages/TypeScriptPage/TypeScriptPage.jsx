@@ -5,7 +5,7 @@ import TypeScriptBody from '../../../components/SkillsBodies/TypeScriptBody/Type
 const TypeScriptPage = () => {
   return (
     <div className='text-white overflow-hidden'>
-    <div className='w-screen h-full bg-[url("/bg.jpeg")] bg-cover bg-bottom bg-no-repeat pb-16'>
+    <div className='w-screen h-full bg-[url("/My-Portofolio/bg.jpeg")] bg-cover bg-bottom bg-no-repeat pb-16'>
         <Nav />
         <TypeScriptBody />
     </div>
