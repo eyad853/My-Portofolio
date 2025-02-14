@@ -1,1 +1,8 @@
-{ "rewrites": [ { "source": "/((?!.*\\..*$).*)", "destination": "/index.html" } ], "static": { "directory": "public" } }
+{
+    "rewrites": [
+      {
+        "source": "/((?!.*\\..*$).*)",
+        "destination": "/index.html"
+      }
+    ]
+  }
