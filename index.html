@@ -5,22 +5,22 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite + React</title>
-    <base href="/My-Portofolio/">
+    <base href="/">
     <script>
       console.log(window.location.pathname);
       
       // Redirect any 404 error back to the root of your app
-      if (window.location.pathname !== '/My-Portofolio/') {
-        window.location.replace('/My-Portofolio/');
-      }
-    </script>
+    //   if (window.location.pathname !== '/My-Portofolio/') {
+    //     window.location.replace('/My-Portofolio/');
+    //   }
+    // </script>
 
-    <script>
-      const path = window.location.pathname.split('/').pop();
-      if (!path.includes('.') && path !== '') {
-        window.location.replace('/My-Portofolio/');
-      }
-    </script>
+    // <script>
+    //   const path = window.location.pathname.split('/').pop();
+    //   if (!path.includes('.') && path !== '') {
+    //     window.location.replace('/My-Portofolio/');
+    //   }
+    // </script>
   </head>
   <body>
     <div id="root"></div>
