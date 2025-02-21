@@ -68,7 +68,7 @@ const App = () => {
         secondImage="noteslogin.png"
         thirdImage="emptynotes.png"
         fourthImage="notes.png"
-        firstVideo={`${import.meta.env.BASE_URL}videos/notesSignUp_fixed.mp4`}
+        firstVideo={`${import.meta.env.BASE_URL}/videos/notesSignUp_fixed.mp4`}
         secondVideo="/videos/notesLogin_fixed.mp4"
         thirdVideo="/videos/notes_fixed.mp4"
         note={true}
