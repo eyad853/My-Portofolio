@@ -1,14 +1,12 @@
 {
   "rewrites": [
     {
+      "source": "/videos/:video",
+      "destination": "/videos/:video"
+    },
+    {
       "source": "/((?!.*\\..*$).*)",
       "destination": "/index.html"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/videos/(.*)",
-      "dest": "/videos/$1"
     }
   ]
 }
