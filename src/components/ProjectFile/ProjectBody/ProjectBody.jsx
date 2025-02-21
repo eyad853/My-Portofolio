@@ -130,32 +130,35 @@ return (
                 {/* videos */}
                 <div className='relative bg-gradient-to-tl from-slate-600 to-slate-900 w-72 h-60 hover:w-80 hover:h-64 transition-all duration-200 rounded-2xl mt-20 '>
                     <video 
-                    src={firstVideo} 
                     controls 
                     autoPlay
                     muted 
                     loop  
-                    className='w-full h-full absolute inset-0 rounded-2xl object-cover'></video>
+                    className='w-full h-full absolute inset-0 rounded-2xl object-cover'>
+                        <source src={firstVideo} type="video/mp4" />
+                    </video>
                 </div>
 
                 <div className='relative bg-gradient-to-tl from-slate-600 to-slate-900 w-72 h-60 hover:w-80 hover:h-64 transition-all duration-200 rounded-2xl '>
-                    <video 
-                    src={secondVideo} 
+                    <video  
                     controls 
                     autoPlay
                     muted 
                     loop 
-                    className='w-full h-full absolute inset-0 rounded-2xl object-cover'></video>
+                    className='w-full h-full absolute inset-0 rounded-2xl object-cover'>
+                        <source src={secondVideo} type="video/mp4" />
+                    </video>
                 </div>
 
                 <div className='relative bg-gradient-to-tl from-slate-600 to-slate-900 w-72 h-60 hover:w-80 hover:h-64 transition-all duration-200 rounded-2xl '>
                     <video 
-                    src={thirdVideo} 
                     controls 
                     autoPlay
                     muted 
                     loop 
-                    className='w-full h-full absolute inset-0 rounded-2xl object-cover'></video>
+                    className='w-full h-full absolute inset-0 rounded-2xl object-cover'>
+                        <source src={thirdVideo} type="video/mp4" />
+                    </video>
                 </div>
 
             
