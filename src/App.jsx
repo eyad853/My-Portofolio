@@ -120,6 +120,7 @@ const App = () => {
         secondVideoText=""
         thirdVideoText=""
         />} />
+          <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </Router>
   )
