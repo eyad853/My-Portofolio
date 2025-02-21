@@ -1,6 +1,6 @@
 import React from 'react'
 import Home from './pages/Home/Home'
-import {BrowserRouter as Router , Routes  , Route} from 'react-router-dom'
+import {BrowserRouter as Router , Routes  , Route, useLocation, Navigate} from 'react-router-dom'
 import About from './pages/About/About'
 import Skills from './pages/Skills/Skills'
 import Contact from './pages/Contact/Contact'
@@ -27,9 +27,18 @@ import ProjectPage from './components/ProjectFile/ProjectPage/ProjectPage'
 import Modal from 'react-modal';
 Modal.setAppElement('#root');
 
+function RedirectToRoot() {
+  const location = useLocation();
+  if (location.pathname.startsWith("/My-Portofolio")) {
+    return <Navigate to="/" replace />;
+  }
+  return null;
+}
+
 const App = () => {
   return (
     <Router basename="/">
+      <RedirectToRoot />  {/* This ensures users are redirected if needed */}
       <Routes >
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
