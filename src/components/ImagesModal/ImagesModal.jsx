@@ -20,7 +20,7 @@ const ImagesModal = ({ isModalOpen, imageSrc, setIsModalOpen }) => {
             isOpen={isModalOpen}
             onRequestClose={() => setIsModalOpen(false)}
             contentLabel="Image"
-            className="fixed bg-slate-500 outline-none rounded-lg shadow-lg"
+            className="fixed bg-transparent outline-none rounded-lg shadow-lg"
             overlayClassName="fixed inset-0 bg-black bg-opacity-75 flex justify-center items-center z-50"
             shouldCloseOnEsc={true}
             shouldCloseOnOverlayClick={true}
