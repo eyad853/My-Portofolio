@@ -135,7 +135,7 @@ return (
                     muted 
                     loop  
                     className='w-full h-full absolute inset-0 rounded-2xl object-cover'>
-                        <source src={firstVideo} type="video/mp4" />
+                        <source src={`${firstVideo}?v=${Date.now()}`} type="video/mp4" />
                     </video>
                 </div>
 
