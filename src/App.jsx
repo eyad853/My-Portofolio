@@ -68,7 +68,7 @@ const App = () => {
         secondImage="noteslogin.png"
         thirdImage="emptynotes.png"
         fourthImage="notes.png"
-        firstVideo={`https://my-portofolio-nu-silk.vercel.app/videos/notesSignUp_fixed_encoded_v2.mp4`}
+        firstVideo={`https://my-portofolio-nu-silk.vercel.app/videos/notesSignUp_fixed_encoded_v4.mp4`}
         secondVideo={`${import.meta.env.BASE_URL}videos/notesLogin_fixed_encoded.mp4`}
         thirdVideo={`${import.meta.env.BASE_URL}videos/notes_fixed_encoded.mp4`}
         note={true}
