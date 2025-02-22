@@ -90,7 +90,7 @@ return (
                 }}
                 className=' relative bg-gradient-to-tl from-slate-600 to-slate-900 w-60 h-60 hover:w-64 hover:h-64 transition-all duration-200 rounded-2xl overflow-hidden'>
                     <img 
-                    src={`${import.meta.env.BASE_URL}${firstImage}`} 
+                    src={firstImage} 
                     className='w-full h-full absolute inset-0 rounded-2xl  ' />
                 </div>
 
@@ -101,7 +101,7 @@ return (
                 }}
                 className=' relative bg-gradient-to-tl from-slate-600 to-slate-900 w-60 h-60 hover:w-64 hover:h-64 transition-all duration-200 rounded-2xl '>
                     <img 
-                    src={`${import.meta.env.BASE_URL}${secondImage}`} 
+                    src={secondImage} 
                     className='w-full h-full absolute inset-0 rounded-2xl  ' />
                 </div>
 
@@ -112,7 +112,7 @@ return (
                 }}
                 className=' relative bg-gradient-to-tl from-slate-600 to-slate-900 w-60 h-60 hover:w-64 hover:h-64 transition-all duration-200 rounded-2xl '>
                     <img 
-                    src={`${import.meta.env.BASE_URL}${thirdImage}`} 
+                    src={thirdImage}  
                     className='w-full h-full absolute inset-0 rounded-2xl  ' />
                 </div>
 
@@ -123,7 +123,7 @@ return (
                 }}
                 className=' relative bg-gradient-to-tl from-slate-600 to-slate-900 w-60 h-60 hover:w-64 hover:h-64 transition-all duration-200 rounded-2xl '>
                     <img 
-                    src={`${import.meta.env.BASE_URL}${fourthImage}`} 
+                    src={fourthImage} 
                     className='w-full h-full absolute inset-0 rounded-2xl ' />
                 </div>
 

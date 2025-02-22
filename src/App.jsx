@@ -64,12 +64,12 @@ const App = () => {
         <Route path='/skills/Typescript' element={<TypeScriptPage   />} />
         <Route path='/skills/HTML' element={<HtmlPage   />} />
         <Route path='/projects/firstProject' element={<ProjectPage   
-        firstImage="notessignup.png"
-        secondImage="noteslogin.png"
-        thirdImage="emptynotes.png"
-        fourthImage="notes.png"
-        firstVideo={`https://my-portofolio-nu-silk.vercel.app/videos/output.mp4`}
-        secondVideo={`${import.meta.env.BASE_URL}videos/output.mp4`}
+        firstImage="/notessignup.png"
+        secondImage="/noteslogin.png"
+        thirdImage="/emptynotes.png"
+        fourthImage="/notes.png"
+        firstVideo={`/videos/output.mp4`}
+        secondVideo={`/videos/output.mp4`}
         thirdVideo={`/videos/output.mp4`}
         note={true}
         noteText="This project is based entirely on a YouTube tutorial, where I followed along to create a fully functional notes app. Through this tutorial, I learned and practiced:
@@ -89,10 +89,10 @@ const App = () => {
         Delete Notes: Finally, the video demonstrates the ability to delete notes seamlessly, with visual feedback like confirmation prompts or instant removal from the list."
         />} />
         <Route path='/projects/secondProject' element={<ProjectPage   
-        firstImage="todomyday.png"
-        secondImage="todoimportant.png"
-        thirdImage="todoplanned.png"
-        fourthImage="todotasks.png"
+        firstImage="/todomyday.png"
+        secondImage="/todoimportant.png"
+        thirdImage="/todoplanned.png"
+        fourthImage="/todotasks.png"
         firstVideo="/videos/todoImportant_fixed.mp4"
         secondVideo="/videos/todoPlanned_fixed.mp4"
         thirdVideo="/videos/todoTasks_fixed.mp4"
