@@ -86,7 +86,7 @@ return (
                 <div 
                 onClick={()=>{
                     setIsModalOpen(true)
-                    setImageSrc(`${import.meta.env.BASE_URL}${firstImage}`)
+                    setImageSrc(`${firstImage}`)
                 }}
                 className=' relative bg-gradient-to-tl from-slate-600 to-slate-900 w-60 h-60 hover:w-64 hover:h-64 transition-all duration-200 rounded-2xl overflow-hidden'>
                     <img 
@@ -97,7 +97,7 @@ return (
                 <div 
                 onClick={()=>{
                     setIsModalOpen(true)
-                    setImageSrc(`${import.meta.env.BASE_URL}${secondImage}`)
+                    setImageSrc(`${secondImage}`)
                 }}
                 className=' relative bg-gradient-to-tl from-slate-600 to-slate-900 w-60 h-60 hover:w-64 hover:h-64 transition-all duration-200 rounded-2xl '>
                     <img 
@@ -108,7 +108,7 @@ return (
                 <div 
                 onClick={()=>{
                     setIsModalOpen(true)
-                    setImageSrc(`${import.meta.env.BASE_URL}${thirdImage}`)
+                    setImageSrc(`${thirdImage}`)
                 }}
                 className=' relative bg-gradient-to-tl from-slate-600 to-slate-900 w-60 h-60 hover:w-64 hover:h-64 transition-all duration-200 rounded-2xl '>
                     <img 
@@ -119,7 +119,7 @@ return (
                 <div 
                 onClick={()=>{
                     setIsModalOpen(true)
-                    setImageSrc(`${import.meta.env.BASE_URL}${fourthImage}`)
+                    setImageSrc(`${fourthImage}`)
                 }}
                 className=' relative bg-gradient-to-tl from-slate-600 to-slate-900 w-60 h-60 hover:w-64 hover:h-64 transition-all duration-200 rounded-2xl '>
                     <img 
