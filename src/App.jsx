@@ -69,8 +69,8 @@ const App = () => {
         thirdImage="/emptynotes.png"
         fourthImage="/notes.png"
         firstVideo="/videos/notesSignUp_fixed_web.mp4"
-        secondVideo="/videos/notesSignUp_fixed.mp4"
-        thirdVideo="/videos/notesSignUp_fixed.mp4"
+        secondVideo={`/videos/notesSignUp_fixed_web.mp4?t=${Date.now()}`}
+        thirdVideo={`/videos/notesSignUp_fixed_web.mp4?t=${Date.now()}`}
         note={true}
         noteText="This project is based entirely on a YouTube tutorial, where I followed along to create a fully functional notes app. Through this tutorial, I learned and practiced:
         Password Encryption: Using bcrypt to hash and verify passwords for secure user authentication.
