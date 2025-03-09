@@ -1,5 +1,13 @@
 {
-  "routes": [
-    { "src": "/(.*).mp4", "dest": "/$1.mp4", "headers": { "content-type": "video/mp4" } }
+  "headers": [
+    {
+      "source": "/(.*).mp4",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "video/mp4"
+        }
+      ]
+    }
   ]
 }
