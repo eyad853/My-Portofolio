@@ -11,7 +11,7 @@ return (
             <div className=' flex justify-end items-center h-full w-1/3'>
                 <div className='w-48 h-48 rounded-full bg-black border-4 border-white'>
                     <img 
-                    src="/myphoto.png" 
+                    src="/images/general_images/My_Photo.png" 
                     className='w-full h-full object-cover rounded-full'
                     />
                 </div>

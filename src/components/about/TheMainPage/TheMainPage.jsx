@@ -7,12 +7,12 @@ const TheMainPage = () => {
         {/* the photo */}
         <div className=' h-full w-1/3 flex justify-end'>
             <div className='w-80 h-80 bg-black rounded-full mt-10 border-4 border-white'>
-                <img src="/myphoto.png" className='w-full h-full object-cover rounded-full' alt="" />
+                <img src="/images/general_images/My_Photo.png" className='w-full h-full object-cover rounded-full' alt="" />
             </div>
         </div>
 
         {/* the text */}
-        <div className=' h-full w-2/3 mt-7 ml-7 bg-gradient-to-tl from-slate-600 to-slate-900 p-12 rounded-2x mr-10'>
+        <div className=' h-full rounded-xl w-2/3 mt-7 ml-7 bg-gradient-to-tl from-slate-600 to-slate-900 p-12 rounded-2x mr-10'>
             <div className='flex flex-col'>
 
                 <span className='text-5xl mb-5'>About Me</span>

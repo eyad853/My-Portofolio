@@ -1,23 +1,42 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import ProjectWay from '../Projectway/ProjectWay'
 
 const ProjectsPages = () => {
   return (
     <div>
-        <div className='h-[90.7vh] w-full  grid grid-cols-2 grid-rows-1 gap-10 p-8'>
-            {/* first project */}
-            <div className=' relative bg-slate-500 w-96 h-96 ml-56  mt-14 rounded-2xl bg-gradient-to-tl from-slate-600 to-slate-900 transform hover:scale-105 transition-all duration-200'>
-              <img src="/notes.webp" className='w-full h-full rounded-2xl absolute' alt="" />
-              <Link to={"/projects/firstProject"} className='absolute w-full h-full z-50'></Link>
-            </div>  
+        <div className='h-full w-full p-16'>
+          {/* first container */}
+            <div className='Front-end-container'>
+              <div className='w-screen  '>
+                <p className='text-3xl font-bold'>
+                  Front-End Projects
+                </p>
+              </div>
 
-            {/* second projcet */}
-            <div className='relative bg-slate-500 w-96 h-96 mt-14 rounded-2xl bg-gradient-to-tl from-slate-600 to-slate-900 transform hover:scale-105 transition-all duration-200'>
-            <img src="/todo.webp" className='w-full h-full rounded-2xl absolute' alt="" />
-            <Link to={"/projects/secondProject"} className='absolute w-full h-full z-50'></Link>
+              <div className='flex justify-center h-64  w-full mr-44 mt-10'>
+                <ProjectWay image="/images/projects_images/general_images/E-commerce.webp" link="/frontend/projects/firstProject"/>
+                <ProjectWay image="/images/projects_images/general_images/weather.webp" link="/frontend/projects/secondProject"/>
+                <ProjectWay image="/images/projects_images/general_images/authentication.webp" link="/frontend/projects/thirdProject"/>
+              </div>
             </div>
 
-          
+            {/* second container */}
+            <div className='back-end-container mt-16'>
+              <div className='w-screen  '>
+                <p className='text-3xl font-bold'>
+                  Back_End / Full Stack Projects
+                </p>
+              </div>
+
+              <div className='flex justify-center h-64  w-full mr-44 mt-10'>
+                <ProjectWay image="/images/projects_images/general_images/todo.webp" link="/fullstack/projects/firstProject"/>
+                <ProjectWay image="/images/projects_images/general_images/authentication.webp" link="/fullstack/projects/secondProject"/>
+                <ProjectWay image="/images/projects_images/general_images/notes.webp" link="/fullstack/projects/thirdProject"/>
+              </div>
+            </div>
+
+
 
         </div>
     </div>
