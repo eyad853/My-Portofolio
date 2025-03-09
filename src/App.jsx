@@ -30,6 +30,7 @@ import F_ThirdProject from './pages/EachProject/FrontEndProjects/ThirdProject/F_
 import FS_FirstProject from './pages/EachProject/Full_Stack_Projects/FirstProject/FS_FirstProject'
 import FS_SecondProject from './pages/EachProject/Full_Stack_Projects/SecondProject/FS_SecondProject'
 import FS_ThirdProject from './pages/EachProject/Full_Stack_Projects/ThirdProject/FS_ThirdProject'
+import { CgOculus } from 'react-icons/cg'
 Modal.setAppElement('#root');
 
 function RedirectToRoot() {
@@ -41,6 +42,7 @@ function RedirectToRoot() {
 }
 
 const App = () => {
+
   return (
     <Router basename="/">
       <RedirectToRoot />  {/* This ensures users are redirected if needed */}
