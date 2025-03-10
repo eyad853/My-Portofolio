@@ -95,7 +95,9 @@ const FS_ThirdProjectBody = () => {
         </div>
       </div>
       {/* fourth box */}
-
+        <a className='bg-slate-400 bg-gradient-to-tl from-slate-600 to-slate-900 absolute bottom-5 rounded-2xl h-12 flex justify-center items-center w-80 right-10' href="https://frontendfirstprojectporto.vercel.app/">
+          Try it if you want
+        </a>
     </div>
   </div>
   )
