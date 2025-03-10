@@ -35,7 +35,7 @@ const FS_ThirdProjectBody = () => {
   {/* second part */}
     <div className=' flex flex-col items-center w-185 min-h-screen'>
       <div className='w-160 rounded-2xl relative h-76 bg-white mt-4'>
-          <video controls loop autoPlay src="/videos/BCE@FS_projects/thirdProject/main.mp4" className='w-full h-full rounded-2xl'></video>
+          <video controls loop autoPlay src="https://res.cloudinary.com/dbfsq51ax/video/upload/v1741606598/main_ov2l5n.mp4" className='w-full h-full rounded-2xl'></video>
       </div>
 
       <div className='mt-2 mb-0'>
@@ -47,11 +47,21 @@ const FS_ThirdProjectBody = () => {
       <div className='flex gap-7'>
         {/* left box */}
         <div className='w-80 rounded-2xl h-80 bg-white mt-10 relative'>
-          <video className='w-full h-full rounded-2xl object-cover' controls autoPlay loop src="/videos/BCE@FS_projects/thirdProject/login.mp4"></video>
+          <video 
+          className='w-full h-full rounded-2xl object-cover' 
+          controls 
+          autoPlay 
+          loop 
+          src="https://res.cloudinary.com/dbfsq51ax/video/upload/v1741606597/signup_txcu98.mp4"></video>
         </div>
           {/* right box */}
         <div className='w-80 rounded-2xl h-80 bg-white mt-10 relative'>
-          <video className='w-full h-full rounded-2xl object-cover' controls autoPlay loop src="/videos/BCE@FS_projects/thirdProject/signup.mp4"></video>
+          <video 
+          className='w-full h-full rounded-2xl object-cover' 
+          controls 
+          autoPlay 
+          loop 
+          src="https://res.cloudinary.com/dbfsq51ax/video/upload/v1741606596/login_dw3ca9.mp4"></video>
         </div>
       </div>
 

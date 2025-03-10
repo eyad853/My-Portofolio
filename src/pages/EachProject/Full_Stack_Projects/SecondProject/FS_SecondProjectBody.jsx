@@ -35,7 +35,7 @@ const FS_SecondProjectBody = () => {
   {/* second part */}
     <div className=' flex flex-col items-center w-185 min-h-screen'>
       <div className='w-160 rounded-2xl relative h-96 bg-white mt-4'>
-      <video controls autoPlay loop src="/videos/BCE@FS_projects/secondProject/main.mp4" className='w-full h-full  object-cover  rounded-2xl'></video>
+      <video controls autoPlay loop src="https://res.cloudinary.com/dbfsq51ax/video/upload/v1741606578/main_t5fhq4.mp4" className='w-full h-full  object-cover  rounded-2xl'></video>
 
       </div>
 
@@ -48,11 +48,11 @@ const FS_SecondProjectBody = () => {
       <div className='flex gap-7'>
         {/* left box */}
         <div className='w-80 rounded-2xl h-80 bg-white mt-10 relative'>
-          <video controls autoPlay loop  src="/videos/BCE@FS_projects/secondProject/google.mp4" className='w-full h-full rounded-2xl object-cover'></video>
+          <video controls autoPlay loop  src="https://res.cloudinary.com/dbfsq51ax/video/upload/v1741606577/google_ozqdvl.mp4" className='w-full h-full rounded-2xl object-cover'></video>
         </div>
           {/* right box */}
         <div className='w-80 rounded-2xl h-80 bg-white mt-10 relative'>
-          <video controls autoPlay loop  src="/videos/BCE@FS_projects/secondProject/github.mp4" className='w-full h-full rounded-2xl object-cover'></video>
+          <video controls autoPlay loop  src="https://res.cloudinary.com/dbfsq51ax/video/upload/v1741606576/github_xfseky.mp4" className='w-full h-full rounded-2xl object-cover'></video>
         </div>
       </div>
 
