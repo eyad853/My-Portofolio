@@ -86,9 +86,7 @@ const F_ThirdProjectBody = () => {
         </div>
       </div>
       {/* fourth box */}
-      <div className='w-80 h-10 absolute bottom-5 flex justify-center items-center right-10 bg-sky-700 rounded-2xl'>
-        <a  href="">Try The Web if U want</a>
-      </div>
+
     </div>
   </div>
   )
