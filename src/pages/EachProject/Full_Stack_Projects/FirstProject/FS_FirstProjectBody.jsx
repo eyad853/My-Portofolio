@@ -33,7 +33,7 @@ const FS_FirstProjectBody = () => {
   {/* second part */}
     <div className=' flex flex-col items-center w-185 min-h-screen'>
       <div className='w-160 rounded-2xl relative h-75 bg-white mt-4'>
-        <video autoPlay loop controls  src="/videos/BCE@FS_projects/firstProject/main.mp4" className='w-full h-full rounded-2xl '></video>
+        <video autoPlay loop controls  src="https://res.cloudinary.com/dbfsq51ax/video/upload/v1741606560/main_zjtraf.mp4" className='w-full h-full rounded-2xl '></video>
       </div>
 
       <div className='mt-2 mb-0'>
